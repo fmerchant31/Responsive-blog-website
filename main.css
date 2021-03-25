@@ -86,7 +86,7 @@ header{
 }
 .banner-title span{
     font-family: var(--Playfair);
-    color: rgb(243, 187, 187);
+    color:rgb(182, 176, 176);
 }
 .banner p{
     padding: 1rem 0 2rem 0;
@@ -307,6 +307,10 @@ footer{
 
 /* Media Queries */
 @media screen and (min-width: 540px){
+    .navbar-brand{
+        left:10px;
+        top:10px;
+    }
     .navbar-nav a{
         padding-right: 1.2rem;
         padding-left: 1.2rem;
